@@ -57,7 +57,7 @@ class App extends Component {
 
     let recommendations = [];
     if (this.state.strainsByRace.length > 0 && this.state.strainsByEffect.length > 0) {
-      // declare these to keep the names short
+
       const strainsByRace = this.state.strainsByRace;
       const strainsByEffect = this.state.strainsByEffect;
 
@@ -75,7 +75,7 @@ class App extends Component {
     
     return (<div className="App">
               <div className="wrapper app-container">
-                <h1 className="cannabis">Cannabis</h1>
+                <h2 className="cannabis">Cannabis</h2>
                 <h1 className="strain">Strain selector</h1>
                 <img className="header-img" src={require("../src/images/joints.png")} alt="marijuana cigarettes."/>
                 <div className="form-section">
